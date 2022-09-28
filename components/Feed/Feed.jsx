@@ -1,4 +1,6 @@
 import Stories from '../SocialFeeds/Stories';
+import Posts from '../Posts/Posts';
+
 
 function Feed() {
   return (
@@ -7,6 +9,7 @@ function Feed() {
             {/* stories */}
             <Stories />
             {/* post */}
+            <Posts />
         </section>
         
 
