@@ -47,7 +47,7 @@ function Post({ id, username, userImage, img, caption}) {
           <EmojiHappyIcon className='h-7' />
           <input type="text"  
           placeholder="add a comment...."
-          className='border-none flex-1 focus:ring-0 outline-none' />
+          className='border-none flex-1 focus:ring-0 outline-none bg-gray-50 mx-1' />
           <button className='font-semibold text-gray-700'>Post</button>
         </form>
     </div>
